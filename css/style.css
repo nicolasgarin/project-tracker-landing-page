@@ -762,12 +762,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-softRed {
   --tw-border-opacity: 1;
-  border-color: hsl(0 94% 66% / var(--tw-border-opacity));
+  border-color: #4f8699;
 }
 
 .border-softBlue {
   --tw-border-opacity: 1;
-  border-color: hsl(231 69% 60% / var(--tw-border-opacity));
+  border-color: #563444;
 }
 
 .border-gray-300 {
@@ -782,17 +782,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-softRed {
   --tw-bg-opacity: 1;
-  background-color: hsl(0 94% 66% / var(--tw-bg-opacity));
+  background-color: #1bb0ce;
 }
 
 .bg-veryDarkBlue {
   --tw-bg-opacity: 1;
-  background-color: hsl(229 31% 21% / var(--tw-bg-opacity));
+  background-color: #452f39;
 }
 
 .bg-softBlue {
   --tw-bg-opacity: 1;
-  background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
+  background-color: #6a5e72;
 }
 
 .bg-gray-300 {
@@ -1035,7 +1035,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     border-top-left-radius: 9999px;
     border-bottom-left-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
+    background-color: #563444;
   }
 
   .bg-tabs {
@@ -1047,7 +1047,7 @@ Ensure the default browser behavior of the `hidden` attribute.
     border-top-right-radius: 9999px;
     border-bottom-right-radius: 9999px;
     --tw-bg-opacity: 1;
-    background-color: hsl(231 69% 60% / var(--tw-bg-opacity));
+    background-color: #563444;
   }
 }
 
@@ -1117,7 +1117,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:border-softBlue:hover {
   --tw-border-opacity: 1;
-  border-color: hsl(231 69% 60% / var(--tw-border-opacity));
+  border-color: #563444;
 }
 
 .hover\:bg-white:hover {
@@ -1127,12 +1127,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:text-softRed:hover {
   --tw-text-opacity: 1;
-  color: hsl(0 94% 66% / var(--tw-text-opacity));
+  color: #4f8699;
 }
 
 .hover\:text-softBlue:hover {
   --tw-text-opacity: 1;
-  color: hsl(231 69% 60% / var(--tw-text-opacity));
+  color: #563444;
 }
 
 .hover\:text-gray-600:hover {
@@ -1330,4 +1330,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xl\:top-0 {
     top: 0px;
   }
+}
+
+body {
+  background-color: #fee2e2;
+}
+
+.color-darkviolet {
+  color: #452f39;
+}
+
+.tit {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.title {
+  font-size: 24px;
+  color: #4f8699;
+  font-weight: 600;
 }
