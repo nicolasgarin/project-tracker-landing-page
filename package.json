@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "sass": "^1.71.0"
+  },
+  "name": "project-tracker",
+  "version": "1.0.0",
+  "description": "project-tracker landing page",
+  "main": "n",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
