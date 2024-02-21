@@ -760,19 +760,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-width: 4px;
 }
 
-.border-softRed {
+.border-celeste-2 {
   --tw-border-opacity: 1;
   border-color: #4f8699;
 }
 
-.border-softBlue {
+.border-violeta-2 {
   --tw-border-opacity: 1;
   border-color: #563444;
 }
 
 .border-gray-300 {
   --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  border-color: #1bb0ce;
 }
 
 .border-white {
@@ -797,7 +797,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-gray-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  background-color: #1bb0ce;
 }
 
 .bg-dots {
@@ -980,7 +980,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-gray-600 {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: #1bb0ce;
 }
 
 .text-gray-500 {
@@ -1115,7 +1115,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-width: 2px;
 }
 
-.hover\:border-softBlue:hover {
+.hover\:border-violet-2:hover {
   --tw-border-opacity: 1;
   border-color: #563444;
 }
@@ -1340,6 +1340,10 @@ body {
   color: #452f39;
 }
 
+.border-violet-2 {
+  border: 2px solid #452f39;
+}
+
 .tit {
   display: flex;
   align-items: center;
@@ -1354,4 +1358,16 @@ body {
   font-size: 24px;
   color: #4f8699;
   font-weight: 600;
+}
+
+.header {
+  background-color: #452f39;
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  transition: .3s;
+}
+
+.m-top {
+  padding-top: 111px;
 }

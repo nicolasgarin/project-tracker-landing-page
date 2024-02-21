@@ -2,10 +2,13 @@
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="images/pt-logo-3.svg" />
+    <link rel="icon" type="image/svg+xml" href="images/logo-celeste-solo-circulo.svg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Landing page for the Project Tracker project.">
+    <meta
+      name="description"
+      content="Landing page for the Project Tracker project."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,59 +21,64 @@
     <title>Project Tracker</title>
   </head>
   <body class="overflow-x-hidden">
-    <nav class="container relative mx-auto p-6">
-      <!-- Flex Container For Nav Items -->
-      <div class="flex items-center justify-between space-x-20 my-6">
-        <!-- Logo -->
-        <div class="z-30 tit">
-          <img class="logo" src="images/logo-violeta-circulo.svg" alt="" id="logo" />
-        </div>
+    <header class="header">
+      <nav class="container relative mx-auto">
+        <!-- Flex Container For Nav Items -->
+        <div class="flex items-center justify-between space-x-20 my-6">
+          <!-- Logo -->
+          <div class="z-30 tit">
+            <img
+              class="logo"
+              src="images/logo-celeste-circulo.svg"
+              alt=""
+              id="logo"
+            />
+          </div>
 
-        <!-- Menu Items -->
+          <!-- Menu Items -->
+          <div
+            class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+          >
+            <a href="#features" class="tracking-widest hover:text-softRed"
+              >Features</a
+            >
+            <a href="#download" class="tracking-widest hover:text-softRed"
+              >Download</a
+            >
+            <a href="#faq" class="tracking-widest hover:text-softRed">FAQ</a>
+          </div>
+          <!-- Hamburger Button -->
+          <button
+            id="menu-btn"
+            class="z-30 block md:hidden focus:outline-none hamburger"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        <!-- Mobile Menu -->
         <div
-          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+          id="menu"
+          class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
         >
-          <a href="#features" class="tracking-widest hover:text-softRed"
-            >Features</a
-          >
-          <a href="#download" class="tracking-widest hover:text-softRed"
-            >Download</a
-          >
-          <a href="#faq" class="tracking-widest hover:text-softRed">FAQ</a>
-
+          <div class="w-full py-3 text-center">
+            <a href="#features" class="block hover:text-softRed">Features</a>
+          </div>
+          <div class="w-full py-3 text-center">
+            <a href="#download" class="block hover:text-softRed">Download</a>
+          </div>
+          <div class="w-full py-3 text-center">
+            <a href="#faq" class="block hover:text-softRed">FAQ</a>
+          </div>
+          <div class="w-full py-3 text-center">
+            <a href="#" class="block hover:text-softRed">Login</a>
+          </div>
         </div>
-        <!-- Hamburger Button -->
-        <button
-          id="menu-btn"
-          class="z-30 block md:hidden focus:outline-none hamburger"
-        >
-          <span class="hamburger-top"></span>
-          <span class="hamburger-middle"></span>
-          <span class="hamburger-bottom"></span>
-        </button>
-      </div>
-      <!-- Mobile Menu -->
-      <div
-        id="menu"
-        class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
-      >
-        <div class="w-full py-3 text-center">
-          <a href="#features" class="block hover:text-softRed">Features</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#download" class="block hover:text-softRed">Download</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#faq" class="block hover:text-softRed">FAQ</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#" class="block hover:text-softRed">Login</a>
-        </div>
-      </div>
-    </nav>
-
+      </nav>
+    </header>
     <!-- Hero Section -->
-    <section id="hero">
+    <section id="hero" class="m-top">
       <!-- Container For Image & Content -->
       <div
         class="container flex flex-col-reverse mx-auto p-6 lg:flex-row lg:mb-0"
@@ -85,9 +93,9 @@
           <p
             class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
           >
-            A clean and simple interface to keep track of your projects, plan new objectives and analyze your 
-            stats to improve the proccess. Try it for
-            free.
+            A clean and simple interface to keep track of your projects, plan
+            new objectives and analyze your stats to improve the proccess. Try
+            it for free.
           </p>
 
           <!-- Buttons Container -->
@@ -96,12 +104,12 @@
           >
             <a
               href="#"
-              class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
+              class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-violet-2 md:text-base hover:bg-white hover:text-softBlue"
               >Get It On Chrome</a
             >
             <a
               href="#"
-              class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
+              class="p-4 text-sm font-semibold text-white bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
               >Get It On Firefox</a
             >
           </div>
@@ -122,11 +130,13 @@
     <!-- Features Heading -->
     <section id="features">
       <div class="container mx-auto mt-16 px-6">
-        <h2 class="color-darkviolet mb-6 text-4xl font-semibold text-center">Features</h2>
+        <h2 class="color-darkviolet mb-6 text-4xl font-semibold text-center">
+          Features
+        </h2>
         <p class="max-w-md mx-auto text-center text-grayishBlue">
-          Our aim is to make it quick and easy for you to access and track your daily tasks.
-          Your projects and goals sync between your devices so you can access
-          them on the go.
+          Our aim is to make it quick and easy for you to access and track your
+          daily tasks. Your projects and goals sync between your devices so you
+          can access them on the go.
         </p>
       </div>
     </section>
@@ -145,7 +155,7 @@
             class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
             data-target="panel-1"
           >
-            <div class="py-5 border-b-4 border-softRed" data-target="panel-1">
+            <div class="py-5 border-b-4 border-celeste-2" data-target="panel-1">
               Simple Tracker
             </div>
           </div>
@@ -196,7 +206,7 @@
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
+                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-violet-2 hover:border-2"
                   >More Info</a
                 >
               </div>
@@ -229,7 +239,7 @@
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
+                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-violet-2 hover:border-2"
                   >More Info</a
                 >
               </div>
@@ -256,13 +266,13 @@
                 Share your progress
               </h3>
               <p class="max-w-md text-center text-grayishBlue md:text-left">
-                Easily share your projects and categories with others. Create
-                a shareable a link that you can send at the click of a button.
+                Easily share your projects and categories with others. Create a
+                shareable a link that you can send at the click of a button.
               </p>
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-softBlue hover:border-2"
+                  class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-softBlue hover:bg-white hover:text-softBlue hover:border-violet-2 hover:border-2"
                   >More Info</a
                 >
               </div>
@@ -275,7 +285,9 @@
     <!-- Download Heading -->
     <section id="download">
       <div class="container mx-auto px-6">
-        <h2 class="color-darkviolet mb-6 text-3xl font-semibold text-center md:text-4xl">
+        <h2
+          class="color-darkviolet mb-6 text-3xl font-semibold text-center md:text-4xl"
+        >
           Download the extension
         </h2>
         <p class="max-w-lg mx-auto text-center text-grayishBlue">
@@ -307,7 +319,7 @@
           <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
             <a
               href="#"
-              class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue"
+              class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-violet-2"
               >Add & Install Extension</a
             >
           </div>
@@ -330,7 +342,7 @@
             <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
               <a
                 href="#"
-                class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue"
+                class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-violet-2"
                 >Add & Install Extension</a
               >
             </div>
@@ -354,7 +366,7 @@
             <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
               <a
                 href="#"
-                class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-softBlue"
+                class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-softBlue hover:text-softBlue hover:bg-white border-violet-2"
                 >Add & Install Extension</a
               >
             </div>
@@ -366,10 +378,14 @@
     <!-- FAQ Heading -->
     <section id="faq">
       <div class="container mx-auto">
-        <h2 class="color-darkviolet mb-6 text-3xl font-semibold text-center md:text-4xl">
+        <h2
+          class="color-darkviolet mb-6 text-3xl font-semibold text-center md:text-4xl"
+        >
           Frequently Asked Questions
         </h2>
-        <p class="color-darkviolet max-w-lg px-6 mx-auto text-center text-graishBlue">
+        <p
+          class="color-darkviolet max-w-lg px-6 mx-auto text-center text-graishBlue"
+        >
           Here are some of our FAQs. If you have any other questions you'd like
           answered please feel free to email us.
         </p>
@@ -594,8 +610,12 @@
         <div
           class="flex flex-col items-center justify-between space-y-8 text-lg font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue"
         >
-        <img class="logo" src="images/logo-celeste-circulo.svg" alt="" id="logo" />
-
+          <img
+            class="logo"
+            src="images/logo-celeste-circulo.svg"
+            alt=""
+            id="logo"
+          />
 
           <a href="#features" class="uppercase hover:text-softRed">Features</a>
           <a href="#download" class="uppercase hover:text-softRed">Download</a>
