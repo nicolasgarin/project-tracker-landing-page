@@ -847,8 +847,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 7rem;
 }
 
 .px-10 {
