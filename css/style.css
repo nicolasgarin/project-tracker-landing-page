@@ -964,7 +964,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-grayishBlue {
   --tw-text-opacity: 1;
-  color: hsl(229 8% 60% / var(--tw-text-opacity));
+  color: #452f39;
 }
 
 .text-white {
@@ -974,7 +974,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-gray-400 {
   --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
+  color: #1bb0ce;
 }
 
 .text-black {
