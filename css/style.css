@@ -1096,7 +1096,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 3px;
   top: 0;
   left: 0;
-  background: #000;
+  background: #22c7e8;
   transform: rotate(0);
   transition: all 0.5s;
 }
@@ -1107,7 +1107,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hamburger-bottom {
   transform: translateY(14px);
-  background: #000;
+  background: #22c7e8;
 }
 
 .open {
@@ -1120,7 +1120,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .open .hamburger-top {
   transform: rotate(45deg) translateY(6px) translateX(6px);
-  background-color: #fff;
+  background-color: #22c7e8;
 }
 
 .open .hamburger-middle {
@@ -1129,7 +1129,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
-  background-color: #fff;
+  background-color: #22c7e8;
 }
 
 .hover\:border-2:hover {
@@ -1356,7 +1356,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 body {
-  background-color: #fee2e2;
+  //background-color: #fee2e2;
+  background-image: url("../images/background.png");
 }
 
 .color-darkviolet {
