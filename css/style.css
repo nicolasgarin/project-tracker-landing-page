@@ -1364,7 +1364,7 @@ body {
   font-weight: 600;
 }
 
-.header {
+header {
   background-color: #452f39;
   position: fixed;
   z-index: 50;
@@ -1379,4 +1379,16 @@ body {
 .card-box {
   background-color: #fee2e2;
   box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
+}
+
+.text-celeste {
+  color: #1bb0ce;
+}
+
+.nav-1 {
+  padding: 0 1.5rem;
+}
+
+.transparent {
+  background-color: transparent!important;
 }
