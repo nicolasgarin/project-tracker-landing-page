@@ -1155,7 +1155,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .group:hover .group-hover\:text-red-500 {
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: #1bb0ce;
 }
 
 .group:focus .group-focus\:max-h-screen {
@@ -1169,7 +1169,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .group:focus .group-focus\:text-red-500 {
   --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
+  color: #1bb0ce;
 }
 
 @media (min-width: 768px) {
@@ -1374,4 +1374,9 @@ body {
 
 .m-top {
   padding-top: 111px;
+}
+
+.card-box {
+  background-color: #fee2e2;
+  box-shadow: 0 29px 52px rgba(0,0,0,0.40), 0 25px 16px rgba(0,0,0,0.20);
 }
