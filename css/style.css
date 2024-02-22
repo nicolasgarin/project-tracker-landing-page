@@ -784,7 +784,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-white {
   --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+  border-color: #ffff;
 }
 
 .bg-softRed {
@@ -976,7 +976,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: #ffff;
 }
 
 .text-gray-400 {
@@ -1143,7 +1143,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: #ffff;
 }
 
 .hover\:text-softRed:hover {
