@@ -1113,7 +1113,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 .open {
   transform: rotate(90deg);
   transform: translateY(0px);
-  position: fixed;
+  position: static;
   top: 50px;
   right: 25px;
 }
@@ -1416,4 +1416,9 @@ header {
 .tab1 {
   height: 320px;
   margin-left: 30px;
+}
+
+#menu {
+  height: auto;
+  margin-bottom: auto;
 }
