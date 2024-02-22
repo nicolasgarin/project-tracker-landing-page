@@ -792,6 +792,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-softBlue {
   --tw-bg-opacity: 1;
+  background-color: #563444;
+}
+
+.bg-softViolet {
   background-color: #6a5e72;
 }
 
@@ -1137,7 +1141,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .hover\:text-gray-600:hover {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: #1bb0ce;
 }
 
 .hover\:opacity-90:hover {
