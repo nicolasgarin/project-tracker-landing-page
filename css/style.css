@@ -1419,6 +1419,6 @@ header {
 }
 
 #menu {
-  height: auto;
+  height: fit-content;
   margin-bottom: auto;
 }
