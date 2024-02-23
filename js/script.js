@@ -54,7 +54,7 @@ window.addEventListener("scroll", () => {
       header.classList.remove("transparent");
     }
   } else {
-    if (document.documentElement.scrollTop < 50) {
+    if (document.documentElement.scrollTop < 30) {
       header.classList.add("transparent");
     } else {
       header.classList.remove("transparent");
