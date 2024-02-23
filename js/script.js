@@ -47,11 +47,19 @@ const header = document.getElementById("header");
 
 window.addEventListener("scroll", () => {
   // ADD COLORED CLASS TO MENU AT SCROLLDOWN
+  if (window.innerWidth < 768 ) {
     if (document.documentElement.scrollTop < 110) {
       header.classList.add("transparent");
     } else {
       header.classList.remove("transparent");
     }
+  } else {
+    if (document.documentElement.scrollTop < 50) {
+      header.classList.add("transparent");
+    } else {
+      header.classList.remove("transparent");
+    }
+  }
   
 
 });
